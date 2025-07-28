@@ -146,7 +146,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 UNFOLD = {
     "SITE_TITLE": _("{{cookiecutter.project_name}}"),
     "SITE_HEADER": _("{{cookiecutter.project_name}}"),
-    "SITE_SUBHEADER": _("{{cookiecutter.project_name}}"),
+    "SITE_SUBHEADER": _("{{cookiecutter.description}}"),
     # "SITE_DROPDOWN": [
     #     {
     #         "icon": "diamond",
